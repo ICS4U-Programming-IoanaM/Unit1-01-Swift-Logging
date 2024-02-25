@@ -30,7 +30,7 @@ do {
   let logSize = try userInput()
 
 // checks if user entered one of the three options given to the user
-  if (logSize != 0.25 && logSize != 0.5 && logSize != 1) {
+  if logSize != 0.25 && logSize != 0.5 && logSize != 1 {
     print("Invalid input, please enter one of the three options.")
   } else {
     // calculates how many logs can fit in the truck
